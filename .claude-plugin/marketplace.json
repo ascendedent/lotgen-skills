@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "lotgen",
+  "description": "Skills for driving LOTGEN — build ad, UGC, explainer, photodump and influencer lots, fix takes without re-rendering them, price anything before it costs money, and send a client a review link.",
+  "owner": {
+    "name": "Ascended Entertainment LLC",
+    "email": "support@lotgen.ai"
+  },
+  "plugins": [
+    {
+      "name": "lotgen",
+      "description": "Connects Claude to a LOTGEN workspace and teaches it the craft: what a lot is, how a format, a vertical, a capture style and a look compose, which calls spend money and which are free, and how to take a finished lot to a client. Creation never renders; the skills stop at a priced quote and ask.",
+      "author": { "name": "LOTGEN" },
+      "category": "productivity",
+      "homepage": "https://lotgen.ai",
+      "source": "./plugins/lotgen"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "lotgen",
+  "displayName": "LOTGEN",
+  "description": "Generate video with your own provider keys, priced in dollars and seconds. Connects to a LOTGEN workspace over MCP and carries the skills for driving it.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ascended Entertainment LLC",
+    "url": "https://lotgen.ai"
+  },
+  "homepage": "https://lotgen.ai",
+  "repository": "https://github.com/ascendedent/lotgen-skills",
+  "license": "SEE LICENSE IN README.md",
+  "keywords": ["video", "generative", "advertising", "ugc", "lotgen"]
+}
