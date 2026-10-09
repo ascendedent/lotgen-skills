@@ -1,0 +1,45 @@
+{
+  "name": "lotgen",
+  "version": "0.2.0",
+  "description": "Generate video with your own provider keys, priced in dollars and seconds. Connects to a LOTGEN workspace over MCP and carries the skills for driving it.",
+  "author": {
+    "name": "Ascended Entertainment LLC",
+    "email": "support@lotgen.ai",
+    "url": "https://lotgen.ai"
+  },
+  "homepage": "https://lotgen.ai",
+  "repository": "https://github.com/ascendedent/lotgen-skills",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "lotgen",
+    "video",
+    "generative-video",
+    "advertising",
+    "ugc",
+    "faceless",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "LOTGEN",
+    "shortDescription": "Video ads on your own AI keys",
+    "longDescription": "LOTGEN builds ad, UGC, explainer, faceless, photodump and influencer video on the model providers whose keys you already hold, priced in dollars and seconds rather than credits. This plugin connects your agent to one LOTGEN workspace and carries the skills that drive it: plan a lot from a brief or a product page, write each shot so it renders what you meant, keep a face and a product the same across cuts, price everything before it costs money, fix a take without re-rendering it, assemble a finished episode with captions, and share a review link with a client.\n\nPlanning, building and pricing are free. Only the tools that send work to a model provider spend, on your own keys, and each is marked destructive so your client asks first.\n\nFor brands, agencies and creators who make video at volume. Requires a LOTGEN workspace (https://lotgen.ai) and at least one provider key stored in it. The explainer and faceless planners do not research a topic: the lines are yours to write, or to draft with a text model and approve.",
+    "developerName": "Ascended Entertainment LLC",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://lotgen.ai",
+    "supportURL": "https://lotgen.ai/mcp",
+    "privacyPolicyURL": "https://lotgen.ai/privacy",
+    "termsOfServiceURL": "https://lotgen.ai/terms",
+    "defaultPrompt": [
+      "Plan a 15-second UGC ad for my saved product and quote it before anything renders",
+      "Upload my product photos and tag the packshot and the product map",
+      "Show me what my workspace spent this month, by provider and by lot"
+    ],
+    "brandColor": "#DC0202",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}
