@@ -1,0 +1,17 @@
+{
+  "name": "lotgen",
+  "owner": {
+    "name": "Ascended Entertainment LLC",
+    "email": "support@lotgen.ai"
+  },
+  "metadata": {
+    "description": "LOTGEN: generate video on your own provider keys, from Cursor."
+  },
+  "plugins": [
+    {
+      "name": "lotgen",
+      "source": "plugins/lotgen",
+      "description": "Generate video with your own provider keys, priced in dollars and seconds. Connects to a LOTGEN workspace over MCP and carries the skills for driving it."
+    }
+  ]
+}
