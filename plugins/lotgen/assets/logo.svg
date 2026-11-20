@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="512" height="512" role="img" aria-label="LOTGEN">
+  <rect width="32" height="32" rx="6" fill="#0b0b0a"/>
+  <rect x="3.5" y="3.5" width="25" height="25" rx="4" fill="none" stroke="#ececec" stroke-width="2"/>
+  <path d="M11 9.5v11h9" fill="none" stroke="#ececec" stroke-width="3.2" stroke-linecap="square"/>
+</svg>

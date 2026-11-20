@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "lotgen": {
+      "type": "http",
+      "url": "https://mcp.lotgen.ai/mcp"
+    }
+  }
+}
